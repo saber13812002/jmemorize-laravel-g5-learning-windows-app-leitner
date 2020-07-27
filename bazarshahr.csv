@@ -1,0 +1,307 @@
+Frontside,Flipside,Category,Level
+"if ($request-&gt;query('brand') !== null) {
+
+        if ($request-&gt;؟؟؟؟؟؟('brand')) {",if ($request-&gt;exists('brand')) {,,1
+$shopProduct-&gt; ( how to get original value after save ) ('price'),$shopProduct-&gt;getOriginal('price'),,1
+get fileld from request,$request-&gt;input('action'),,1
+"return view('app.index', compact('public_menu'));","return view('app.index', compact('public_menu'));",,1
+"ForElse is a ForEach loop, but with","I believe the answer to your question is that, essentially, ForElse is a ForEach loop, but with extra handling for empty input(s).
+
+extra handling for empty input(s).
+
+
+
+@forelse($status-&gt;replies as $reply)
+    &lt;p&gt;{{ $reply-&gt;body }}&lt;/p&gt;
+@empty
+    &lt;p&gt;No replies&lt;/p&gt;
+@endforelse",,1
+shopProductIds = $product-&gt;shopProducts()-&gt;....,shopProductIds = $product-&gt;shopProducts()-&gt;pluck('id')-&gt;toArray();,,1
+if ($request-&gt;exists('q')) { $request-&gt;????('q') },if ($request-&gt;exists('q')) { $request-&gt;query('q') },,1
+"return api()-&gt;data(ProductDetailResource::collection($product));
+
+?? if one item and not a clollection of items how can we write our code?
+
+        return api()-&gt;data(ProductDetailResource::????($product));","return api()-&gt;data(ProductDetailResource::collection($product));
+
+        return api()-&gt;data(ProductDetailResource::make($product));",,1
+"The pluck method retrieves all of the values for a given key:
+
+$collection = collect([
+    ['product_id' =&gt; 'prod-100', 'name' =&gt; 'Desk'],
+    ['product_id' =&gt; 'prod-200', 'name' =&gt; 'Chair'],
+]);
+
+$plucked = $collection-&gt;pluck('name');
+
+$plucked-&gt;???????();
+
+// ['???????????', '???????????']","$plucked-&gt;all();
+
+// ['Desk', 'Chair']",,1
+function to check ... was model changed for specific field,$shopProduct-&gt;isDirty('price'),,1
+"just sample:
+
+PaymentMethodResource::collection(PaymentMethod::all())",PaymentMethodResource::collection(PaymentMethod::all()),,1
+"$optionBuilder = new OptionsBuilder();
+
+                $optionBuilder-&gt;setTimeToLive(60 * 20);
+
+
+                $notificationBuilder = new PayloadNotificationBuilder();
+
+                $notificationBuilder-&gt;setBody($message)
+
+                    -&gt;setSound('default');
+
+                $dataBuilder = new PayloadDataBuilder();
+
+                $dataBuilder-&gt;addData(['deeplink' =&gt; $deeplink]);
+
+                $option = $optionBuilder-&gt;build();
+
+                $notification = $notificationBuilder-&gt;build();
+
+                $data = $dataBuilder-&gt;build();
+
+                $token = $fcm_token['firebase_token'];
+
+                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);","$optionBuilder = new OptionsBuilder();
+
+                $optionBuilder-&gt;setTimeToLive(60 * 20);
+
+
+                $notificationBuilder = new PayloadNotificationBuilder();
+
+                $notificationBuilder-&gt;setBody($message)
+
+                    -&gt;setSound('default');
+
+                $dataBuilder = new PayloadDataBuilder();
+
+                $dataBuilder-&gt;addData(['deeplink' =&gt; $deeplink]);
+
+                $option = $optionBuilder-&gt;build();
+
+                $notification = $notificationBuilder-&gt;build();
+
+                $data = $dataBuilder-&gt;build();
+
+                $token = $fcm_token['firebase_token'];
+
+                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);",,1
+"'total' =&gt; $products-&gt;?????(),","'total' =&gt; $products-&gt;count(),",,1
+"use SoftDeletes;
+
+how to use?","class Attribute extends Model
+
+{
+
+    use SoftDeletes;
+
+use Illuminate\Database\Eloquent\SoftDeletes;",,1
+"another similar code writing
+
+return api()-&gt;data([
+
+            'id' =&gt; $guild-&gt;id,
+
+            'name' =&gt; $guild-&gt;name,
+
+            'logo' =&gt; $guild-&gt;logo,
+
+            'subscription_plans' =&gt; $plans,
+
+            'social_accounts' =&gt; $accounts
+
+        ]);",return api()-&gt;data(new GuildResource($guild));,,1
+"$downstreamResponse-&gt;numberSuccess();
+
+        $downstreamResponse-&gt;numberFailure();
+
+        $downstreamResponse-&gt;numberModification();
+
+
+        // return Array - you must remove all this tokens in your database
+
+        $downstreamResponse-&gt;tokensToDelete();
+
+
+        // return Array (key : oldToken, value : new token - you must change the token in your database)
+
+        $downstreamResponse-&gt;tokensToModify();
+
+
+        // return Array - you should try to resend the message to the tokens in the array
+
+        $downstreamResponse-&gt;tokensToRetry();
+
+
+        // return Array (key:token, value:error) - in production you should remove from your database the tokens
+
+        $downstreamResponse-&gt;tokensWithError();","$downstreamResponse-&gt;numberSuccess();
+
+        $downstreamResponse-&gt;numberFailure();
+
+        $downstreamResponse-&gt;numberModification();
+
+
+        // return Array - you must remove all this tokens in your database
+
+        $downstreamResponse-&gt;tokensToDelete();
+
+
+        // return Array (key : oldToken, value : new token - you must change the token in your database)
+
+        $downstreamResponse-&gt;tokensToModify();
+
+
+        // return Array - you should try to resend the message to the tokens in the array
+
+        $downstreamResponse-&gt;tokensToRetry();
+
+
+        // return Array (key:token, value:error) - in production you should remove from your database the tokens
+
+        $downstreamResponse-&gt;tokensWithError();",,1
+auditing laravel,use OwenIt\Auditing\Contracts\Auditable;,,1
+"what is another similar code to write this code?
+
+return api()-&gt;data([
+
+            'id' =&gt; $invoice-&gt;id,
+
+            'title' =&gt; $invoice-&gt;title,
+
+            'price' =&gt; $invoice-&gt;price,
+
+            'created_at' =&gt; $invoice-&gt;created_at,
+
+            'payed_at' =&gt; $invoice-&gt;payed_at,
+
+            'items' =&gt; $items
+
+        ]);",return api()-&gt;data(new InvoiceDetailResource($invoice));,,1
+"@forelse ($users as $user)
+    &lt;li&gt;{{ $user-&gt;name }}&lt;/li&gt;
+???????????????
+@endforelse","@empty
+    &lt;p&gt;No users&lt;/p&gt;",,1
+DB::table('users')-&gt; HOW TO GET first value ('name'); BY WHERE,"DB::table('users')-&gt;where('id', 1)-&gt;pluck('name')-&gt;first();",,1
+"in bazarshahr model
+
+ $categoryIds = $this-&gt;??????()
+
+            -&gt;pluck('category_id')","$categoryIds = $this-&gt;products()
+
+            -&gt;pluck('category_id')",,1
+how to return (and remove unwanted fields and  values in     a            $request-&gt;?????,"return [
+
+            $request-&gt;except('type', 'coordinates', 'coordinates.lat', 'coordinates.long', 'transferee_name'),",,1
+"create
+
+RESOURCE file
+
+return [
+id =&gt; this -&gt; id
+....
+]
+
+
+HOW to use your custom X-Resouce to manage structure of returned json WHEN COLLECTION",Resource::collection(,,1
+"what is ????????????? 
+
+   protected static function boot() {
+        parent::boot();
+
+        static::????????(function($attribute) {
+            $productAttributeIds  = ProductAttribute::where('attribute_id',$attribute-&gt;id)-&gt;pluck('id');
+            ProductAttribute::destroy($productAttributeIds);
+        });
+    }",static::deleteting,,1
+لَهُمُ الْبُشْرَىٰ فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ ۚ لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ ۚ ذَٰلِكَ هُوَ الْفَوْزُ الْعَظِيمُ (64),الذين آمنوا وكانوا يتقون لهم البشرى,,1
+composer load refresh all,composer dump-autoload before composer update. If still doesn't work then try to clear composer dump-autoload,,1
+"$guilds = Guild::orderBy('weight')-&gt;orderBy('name')-&gt;get();
+
+        $data = [];
+
+        foreach ($guilds as $g) {
+
+            $logo = null;
+
+            if ($g-&gt;logo) {
+
+                $logo = $g-&gt;logo;
+
+            }
+
+            $data[] = ['id' =&gt; $g-&gt;id, 'name' =&gt; $g-&gt;name, 'logo' =&gt; $logo];
+
+        }
+
+
+        return api()-&gt;data($data);","$guilds = Guild::orderBy('weight')-&gt;orderBy('name')-&gt;select('id', 'name', 'logo')-&gt;get();
+
+        return api()-&gt;data($guilds);",,1
+"laravel methods like ask WHEN WE IMPLEMENT COMMANDS
+
+ask a question
+write into in shell
+display things
+draw a table
+
+confirm
+get password
+guess and suggest","$this-&gt;ask  
+$this-&gt;info( 
+$this-&gt;display( 
+$this-&gt;table(
+
+
+confirm
+
+secret
+
+anticipate
+
+
+line, info, comment, question and error
+
+options
+
+createProgressBar",,1
+"count in card in bazarshahr design 
+
+by bazarshahr models
+
+WITH USER and PRODUCT","$shopProductIds = $product-&gt;shopProducts()-&gt;pluck('id')-&gt;toArray();
+
+        $count_in_cart = $currentUser-&gt;cart
+
+            -&gt;whereIn('shop_product_id', $shopProductIds)
+
+            -&gt;sum('count');",,1
+composer cache clear,"composer dump-autoload 
+
+before composer update. If still doesn't work then try to clear composer cache using composer clear-cache",,1
+"what is 401 and 408
+
+return apiAbort(401);
+
+            return apiAbort(Response::?????????????????);","HTTP_UNAUTHORIZED
+
+return apiAbort(488);
+
+            return apiAbort(Response::HTTP_BAD_REQUEST);",,1
+Laravel: How to Get Current Route Name? (v5 … v7),\Request::route()-&gt;getName(),,1
+method to get old value in model laravel when save,"$user-&gt;getOriginal('username') &lt;&lt;&lt;&lt;
+$user-&gt;old-&gt;username
+$product-&gt;isDirty('price')",,2
+get-header-authorization-key-in-laravel-controller,$header = $request-&gt;header('Authorization');,,2
+if value of the saved model changed for example price,$product-&gt;isDirty('price'),,3
+create in UNIT FOLDER php artisan make:test,php artisan make:test UserTest --unit,,3
+To also get soft deleted,$trashedAndNotTrashed = Model::withTrashed()-&gt;get();,,3
+guilds,اصناف,,3
+Only soft deleted items,$onlySoftDeleted = Model::onlyTrashed()-&gt;get();,,3
+Authooooorisasion dictation: Bearer,Authorization: Bearer,,4
+get header in laravel for example 'your key',$api_key = $request-&gt;header('api_key'),,4

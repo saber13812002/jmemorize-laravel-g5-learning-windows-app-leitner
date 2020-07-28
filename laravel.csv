@@ -1,7 +1,7 @@
 Frontside,Flipside,Category,Level
 You can invoke the Quick Definition Viewer,"Ctrl+Shift+I for items in code completion suggestions lists and the class, file, or symbol navigation commands",,2
 push command first time,git push -u origin master,git,2
-Attaching A New Cookie To A Response,,laravel,2
+Attaching A New Cookie To A Response,?,laravel,2
 Validating Successful Uploads,if ($request-&gt;file('photo')-&gt;isValid()),laravel,2
 how to return array as json,return Response::json($data);,laravel,2
 "Retrieving Uploaded Files asphoto
@@ -32,7 +32,7 @@ public function [abbr] hotkey phpstorm,pubf,phpstorm,2
 route::get [abbr] hotkey phpstorm,rget,phpstorm,2
 make:component create blade file in which location?,resource &gt; views &gt; components,phpstorm,2
 معنی disclosure,معنی disclosure = معنی : افشاء، فاش سازی، بی پرده گویی معانی دیگر: آشکارسازی، افشاگری، بازنمود.,vocab,2
-php artisan make:component [name] (switch),--inline,,3
+php artisan make:component [name] (switch),#NAME?,,3
 npm run [define your custom commands and switches like npm run NEW_COMMMAND],add script in package.json,,3
 php artisan خالی چی میاره,php artisan help [commandname],,3
 php artisan serve (alternative),php -S localhost:8000 -t public/,,3
@@ -67,6 +67,6 @@ seed by classname,"php artisan db:seed --class=""myTestSeeder""",laravel,4
 Request - Retrieving Old Data after flash,$request-&gt;old('username'),,5
 validation laravel,"$validator = Validator::make($input, $rules, $messages);",laravel,5
 migrate will roll back all,php artisan migrate:reset,laravel,5
-validation simple title* body *,,laravel,5
+validation simple title* body *,?,laravel,5
 Retrieving The Request Method TYPE POST OR GET,if ($request-&gt;isMethod('post')),laravel,5
 down() Column,down()   $table-&gt;dropColumn,laravel,6

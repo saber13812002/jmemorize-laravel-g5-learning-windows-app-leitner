@@ -1,0 +1,72 @@
+Frontside,Flipside,Category,Level
+You can invoke the Quick Definition Viewer,"Ctrl+Shift+I for items in code completion suggestions lists and the class, file, or symbol navigation commands",,2
+push command first time,git push -u origin master,git,2
+Attaching A New Cookie To A Response,,laravel,2
+Validating Successful Uploads,if ($request-&gt;file('photo')-&gt;isValid()),laravel,2
+how to return array as json,return Response::json($data);,laravel,2
+"Retrieving Uploaded Files asphoto
+$request-&gt;???????????",file('photo'),laravel,2
+php artisan (help for desire command example),php artisan help make:component,laravel,2
+make component command sample,php artisan make:component ????,laravel,2
+"To create a long-lived cookie,","$response-&gt;withCookie(cookie()-&gt;forever('name', 'value'));",laravel,2
+"get only desired fields from request
+Retrieving A Portion Of The Input Data","$input = $request-&gt;only(['username', 'password']);",laravel,2
+Laravel access request object outside controller,request()-&gt;field_name,laravel,2
+where ( .... or .... ),"-&gt;orWhere('votes', '&gt;=', 100);",laravel,2
+&lt;?php echo 'ss' ?&gt;,&lt;?= 'ss' ?&gt;,laravel,2
+Verifying File Presence,($request-&gt;hasFile('photo')),laravel,2
+Accessing The blob Request store(Request $request),$request-&gt;input('blob');,laravel,2
+PSR-7 request - composer,"composer require symfony/psr-http-message-bridge
+
+composer require zendframework/zend-diactoros",laravel,2
+create new nodejs proj command? default settings,npm init -y,nodejs,2
+install packages pack1 pack2 pack3  by shell,npm i express jsonwebtoken dotenv,nodejs,2
+install  nodemon ( just in dev mode),npm i --save-dev nodemon,nodejs,2
+"where is my component: like:
+        &lt;x-report.subview/&gt;",report folder,phpstorm,2
+"view( ''folder.bladename' , (how to send parametersssss,second,third,) COMMAND",compact(),phpstorm,2
+re order code in phpstorm,ALT SHIFT + L,phpstorm,2
+use component sidebar in your blade (simple),&lt;x-sidebar/&gt;,phpstorm,2
+phpstorm git push hotkey,cntrl + shift + K,phpstorm,2
+public function [abbr] hotkey phpstorm,pubf,phpstorm,2
+route::get [abbr] hotkey phpstorm,rget,phpstorm,2
+make:component create blade file in which location?,resource &gt; views &gt; components,phpstorm,2
+معنی disclosure,معنی disclosure = معنی : افشاء، فاش سازی، بی پرده گویی معانی دیگر: آشکارسازی، افشاگری، بازنمود.,vocab,2
+php artisan make:component [name] (switch),--inline,,3
+npm run [define your custom commands and switches like npm run NEW_COMMMAND],add script in package.json,,3
+php artisan خالی چی میاره,php artisan help [commandname],,3
+php artisan serve (alternative),php -S localhost:8000 -t public/,,3
+first 3 line app listen by express,"const express = require('express')
+const app = express()
+app.listen(3000)",git,3
+node random hex,require('crypto').randomBytes(64).toString('hex'),git,3
+Drop All Tables & Migrate and seeds,php artisan migrate:fresh --seed,laravel,3
+HTTP Requests class refrence name,Illuminate\Http\Request;,laravel,3
+validator laravel 3 params simple validation,"$validator = Validator::make
+($input, $rules, $messages);",laravel,3
+"Moving Uploaded Files
+$request-&gt;file('photo')-&gt;????","$request-&gt;file('photo')-&gt;move($destinationPath, $fileName);",laravel,3
+when new seed added and not refreshed,composer dump-autoload,laravel,3
+Refresh the database and run all database seeds,php artisan migrate:refresh --seed,laravel,3
+Determining If An Input Value Is Present-method,if ($request-&gt;has('name')) {,laravel,3
+migrate:rollback step 5,php artisan migrate:rollback --step=5,laravel,3
+Retrieving Cookies From The Request,$request-&gt;cookie('name'),laravel,3
+Flashing Input To The Session,$request-&gt;flash();,laravel,3
+down migration? default,down(){        Schema::drop,laravel,3
+"""dot"" notation to access the arrays",$request-&gt;input('products.0.name');,laravel,3
+Retrieving All Input Data,$request-&gt;all(),laravel,3
+migration function up() table,Schema::create,laravel,3
+"""message"": ""No query results for model [WM\\Core\\Models\\Attribute] 5",آی دی موجود نیست. همه چیز درسته,laravel,3
+search in all contents,cntrl shift + R,phpstorm,3
+$table-&gt;-----default ????------('id');,$table-&gt;bigIncrements('id');,laravel,4
+Forcing Migrations To Run In Production,php artisan migrate --force,laravel,4
+"what is 3th parameter Arr::get($phones, 'delete', []);",when if the specific key is not found,laravel,4
+make:migration default sample,php artisan make:migration create_users_table,laravel,4
+migrate one step back,php artisan migrate:rollback,laravel,4
+seed by classname,"php artisan db:seed --class=""myTestSeeder""",laravel,4
+Request - Retrieving Old Data after flash,$request-&gt;old('username'),,5
+validation laravel,"$validator = Validator::make($input, $rules, $messages);",laravel,5
+migrate will roll back all,php artisan migrate:reset,laravel,5
+validation simple title* body *,,laravel,5
+Retrieving The Request Method TYPE POST OR GET,if ($request-&gt;isMethod('post')),laravel,5
+down() Column,down()   $table-&gt;dropColumn,laravel,6

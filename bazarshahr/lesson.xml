@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Lesson>
+<Category name="All">
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;input('action')" DateCreated="20-Jul-2020 09:46:46" DateExpired="28-Jul-2020 08:46:46" DateModified="20-Jul-2020 09:46:46" DateTested="27-Jul-2020 08:46:46" DateTouched="27-Jul-2020 08:47:57" Frontside="get fileld from request" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="&#10;$plucked-&amp;gt;all();&#10;&#10;// ['Desk', 'Chair']" DateCreated="20-Jul-2020 09:52:40" DateExpired="28-Jul-2020 08:51:09" DateModified="27-Jul-2020 08:53:40" DateTested="27-Jul-2020 08:51:09" DateTouched="27-Jul-2020 08:53:46" Frontside="The pluck method retrieves all of the values for a given key:&#10;&#10;$collection = collect([&#10;    ['product_id' =&amp;gt; 'prod-100', 'name' =&amp;gt; 'Desk'],&#10;    ['product_id' =&amp;gt; 'prod-200', 'name' =&amp;gt; 'Chair'],&#10;]);&#10;&#10;$plucked = $collection-&amp;gt;pluck('name');&#10;&#10;$plucked-&amp;gt;???????();&#10;&#10;// ['???????????', '???????????']" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$shopProduct-&amp;gt;isDirty('price')" DateCreated="20-Jul-2020 09:42:30" DateExpired="28-Jul-2020 08:51:09" DateModified="27-Jul-2020 08:57:40" DateTested="27-Jul-2020 08:51:09" DateTouched="27-Jul-2020 08:57:42" Frontside="function to check ... was model changed for specific field" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$optionBuilder = new OptionsBuilder();&#10;&#10;                $optionBuilder-&amp;gt;setTimeToLive(60 * 20);&#10;&#10;&#10;                $notificationBuilder = new PayloadNotificationBuilder();&#10;&#10;                $notificationBuilder-&amp;gt;setBody($message)&#10;&#10;                    -&amp;gt;setSound('default');&#10;&#10;                $dataBuilder = new PayloadDataBuilder();&#10;&#10;                $dataBuilder-&amp;gt;addData(['deeplink' =&amp;gt; $deeplink]);&#10;&#10;                $option = $optionBuilder-&amp;gt;build();&#10;&#10;                $notification = $notificationBuilder-&amp;gt;build();&#10;&#10;                $data = $dataBuilder-&amp;gt;build();&#10;&#10;                $token = $fcm_token['firebase_token'];&#10;&#10;                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);" DateCreated="20-Jul-2020 09:34:34" DateExpired="28-Jul-2020 08:57:49" DateModified="20-Jul-2020 09:34:34" DateTested="27-Jul-2020 08:57:49" DateTouched="27-Jul-2020 08:58:34" Frontside="$optionBuilder = new OptionsBuilder();&#10;&#10;                $optionBuilder-&amp;gt;setTimeToLive(60 * 20);&#10;&#10;&#10;                $notificationBuilder = new PayloadNotificationBuilder();&#10;&#10;                $notificationBuilder-&amp;gt;setBody($message)&#10;&#10;                    -&amp;gt;setSound('default');&#10;&#10;                $dataBuilder = new PayloadDataBuilder();&#10;&#10;                $dataBuilder-&amp;gt;addData(['deeplink' =&amp;gt; $deeplink]);&#10;&#10;                $option = $optionBuilder-&amp;gt;build();&#10;&#10;                $notification = $notificationBuilder-&amp;gt;build();&#10;&#10;                $data = $dataBuilder-&amp;gt;build();&#10;&#10;                $token = $fcm_token['firebase_token'];&#10;&#10;                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="'total' =&amp;gt; $products-&amp;gt;count()," DateCreated="20-Jul-2020 10:43:25" DateExpired="28-Jul-2020 08:57:49" DateModified="27-Jul-2020 08:59:01" DateTested="27-Jul-2020 08:57:49" DateTouched="27-Jul-2020 08:59:02" Frontside="'total' =&amp;gt; $products-&amp;gt;?????()," TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="class Attribute extends Model&#10;&#10;{&#10;&#10;    use SoftDeletes;&#10;&#10;use Illuminate\Database\Eloquent\SoftDeletes;&#10;" DateCreated="20-Jul-2020 10:28:05" DateExpired="28-Jul-2020 08:57:49" DateModified="27-Jul-2020 08:59:28" DateTested="27-Jul-2020 08:57:49" DateTouched="27-Jul-2020 08:59:28" Frontside="use SoftDeletes;&#10;&#10;how to use? " TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="        return api()-&amp;gt;data(new GuildResource($guild));&#10;" DateCreated="20-Jul-2020 10:36:25" DateExpired="28-Jul-2020 08:57:49" DateModified="27-Jul-2020 09:01:24" DateTested="27-Jul-2020 08:57:49" DateTouched="27-Jul-2020 09:01:25" Frontside="another similar code writing&#10;&#10;return api()-&amp;gt;data([&#10;&#10;            'id' =&amp;gt; $guild-&amp;gt;id,&#10;&#10;            'name' =&amp;gt; $guild-&amp;gt;name,&#10;&#10;            'logo' =&amp;gt; $guild-&amp;gt;logo,&#10;&#10;            'subscription_plans' =&amp;gt; $plans,&#10;&#10;            'social_accounts' =&amp;gt; $accounts&#10;&#10;        ]);" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$downstreamResponse-&amp;gt;numberSuccess();&#10;&#10;        $downstreamResponse-&amp;gt;numberFailure();&#10;&#10;        $downstreamResponse-&amp;gt;numberModification();&#10;&#10;&#10;        // return Array - you must remove all this tokens in your database&#10;&#10;        $downstreamResponse-&amp;gt;tokensToDelete();&#10;&#10;&#10;        // return Array (key : oldToken, value : new token - you must change the token in your database)&#10;&#10;        $downstreamResponse-&amp;gt;tokensToModify();&#10;&#10;&#10;        // return Array - you should try to resend the message to the tokens in the array&#10;&#10;        $downstreamResponse-&amp;gt;tokensToRetry();&#10;&#10;&#10;        // return Array (key:token, value:error) - in production you should remove from your database the tokens&#10;&#10;        $downstreamResponse-&amp;gt;tokensWithError();" DateCreated="20-Jul-2020 09:34:51" DateExpired="28-Jul-2020 08:57:49" DateModified="20-Jul-2020 09:34:51" DateTested="27-Jul-2020 08:57:49" DateTouched="27-Jul-2020 09:01:32" Frontside="$downstreamResponse-&amp;gt;numberSuccess();&#10;&#10;        $downstreamResponse-&amp;gt;numberFailure();&#10;&#10;        $downstreamResponse-&amp;gt;numberModification();&#10;&#10;&#10;        // return Array - you must remove all this tokens in your database&#10;&#10;        $downstreamResponse-&amp;gt;tokensToDelete();&#10;&#10;&#10;        // return Array (key : oldToken, value : new token - you must change the token in your database)&#10;&#10;        $downstreamResponse-&amp;gt;tokensToModify();&#10;&#10;&#10;        // return Array - you should try to resend the message to the tokens in the array&#10;&#10;        $downstreamResponse-&amp;gt;tokensToRetry();&#10;&#10;&#10;        // return Array (key:token, value:error) - in production you should remove from your database the tokens&#10;&#10;        $downstreamResponse-&amp;gt;tokensWithError();" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="use OwenIt\Auditing\Contracts\Auditable;&#10;" DateCreated="20-Jul-2020 09:36:26" DateExpired="28-Jul-2020 09:02:31" DateModified="20-Jul-2020 09:36:26" DateTested="27-Jul-2020 09:02:31" DateTouched="27-Jul-2020 09:02:38" Frontside="auditing laravel" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="        return api()-&amp;gt;data(new InvoiceDetailResource($invoice));&#10;" DateCreated="20-Jul-2020 10:36:52" DateExpired="28-Jul-2020 09:07:21" DateModified="27-Jul-2020 09:08:13" DateTested="27-Jul-2020 09:07:21" DateTouched="27-Jul-2020 09:08:15" Frontside="what is another similar code to write this code?&#10;&#10;return api()-&amp;gt;data([&#10;&#10;            'id' =&amp;gt; $invoice-&amp;gt;id,&#10;&#10;            'title' =&amp;gt; $invoice-&amp;gt;title,&#10;&#10;            'price' =&amp;gt; $invoice-&amp;gt;price,&#10;&#10;            'created_at' =&amp;gt; $invoice-&amp;gt;created_at,&#10;&#10;            'payed_at' =&amp;gt; $invoice-&amp;gt;payed_at,&#10;&#10;            'items' =&amp;gt; $items&#10;&#10;        ]);" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="@empty&#10;    &amp;lt;p&amp;gt;No users&amp;lt;/p&amp;gt;&#10;" DateCreated="25-Jul-2020 09:35:25" DateExpired="28-Jul-2020 09:07:21" DateModified="25-Jul-2020 09:35:25" DateTested="27-Jul-2020 09:07:21" DateTouched="27-Jul-2020 09:08:31" Frontside="@forelse ($users as $user)&#10;    &amp;lt;li&amp;gt;{{ $user-&amp;gt;name }}&amp;lt;/li&amp;gt;&#10;???????????????&#10;@endforelse" TestsHit="1" TestsTotal="1">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside=" $categoryIds = $this-&amp;gt;products()&#10;&#10;            -&amp;gt;pluck('category_id')" DateCreated="20-Jul-2020 09:54:32" DateExpired="28-Jul-2020 09:07:21" DateModified="27-Jul-2020 09:06:57" DateTested="27-Jul-2020 09:07:21" DateTouched="27-Jul-2020 09:10:24" Frontside="in bazarshahr model&#10;&#10; $categoryIds = $this-&amp;gt;??????()&#10;&#10;            -&amp;gt;pluck('category_id')" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="static::deleteting " DateCreated="25-Jul-2020 09:11:06" DateExpired="28-Jul-2020 09:12:09" DateModified="27-Jul-2020 09:10:11" DateTested="27-Jul-2020 09:12:09" DateTouched="27-Jul-2020 09:15:23" Frontside="what is ????????????? &#10;&#10;   protected static function boot() {&#10;        parent::boot();&#10;&#10;        static::????????(function($attribute) {&#10;            $productAttributeIds  = ProductAttribute::where('attribute_id',$attribute-&amp;gt;id)-&amp;gt;pluck('id');&#10;            ProductAttribute::destroy($productAttributeIds);&#10;        });&#10;    }" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="الذين آمنوا وكانوا يتقون لهم البشرى" DateCreated="20-Jul-2020 10:07:55" DateExpired="28-Jul-2020 09:16:53" DateModified="20-Jul-2020 10:07:55" DateTested="27-Jul-2020 09:16:53" DateTouched="27-Jul-2020 09:16:59" Frontside="لَهُمُ الْبُشْرَىٰ فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ ۚ لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ ۚ ذَٰلِكَ هُوَ الْفَوْزُ الْعَظِيمُ (64)" TestsHit="1" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="composer dump-autoload before composer update. If still doesn't work then try to clear composer dump-autoload" DateCreated="24-Jun-2020 10:53:33" DateExpired="28-Jul-2020 09:16:53" DateModified="24-Jun-2020 13:02:58" DateTested="27-Jul-2020 09:16:53" DateTouched="27-Jul-2020 09:17:08" Frontside="composer load refresh all" TestsHit="3" TestsTotal="5">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$shopProductIds = $product-&amp;gt;shopProducts()-&amp;gt;pluck('id')-&amp;gt;toArray();&#10;&#10;        $count_in_cart = $currentUser-&amp;gt;cart&#10;&#10;            -&amp;gt;whereIn('shop_product_id', $shopProductIds)&#10;&#10;            -&amp;gt;sum('count');" DateCreated="20-Jul-2020 10:29:30" DateExpired="28-Jul-2020 09:24:06" DateModified="27-Jul-2020 09:15:10" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:24:28" Frontside="count in card in bazarshahr design &#10;&#10;by bazarshahr models&#10;&#10;WITH USER and PRODUCT" TestsHit="1" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="HTTP_UNAUTHORIZED&#10;&#10;return apiAbort(488);&#10;&#10;            return apiAbort(Response::HTTP_BAD_REQUEST);" DateCreated="20-Jul-2020 09:54:48" DateExpired="28-Jul-2020 09:24:06" DateModified="27-Jul-2020 09:11:07" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:24:52" Frontside="what is 401 and 408&#10;&#10;return apiAbort(401);&#10;&#10;            return apiAbort(Response::?????????????????);" TestsHit="1" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$user-&amp;gt;getOriginal('username') &amp;lt;&amp;lt;&amp;lt;&amp;lt;&#10;$user-&amp;gt;old-&amp;gt;username&#10;$product-&amp;gt;isDirty('price')" DateCreated="16-Jul-2020 09:48:53" DateExpired="29-Jul-2020 09:24:06" DateModified="16-Jul-2020 09:50:17" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:25:15" Frontside="method to get old value in model laravel when save" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="    $header = $request-&amp;gt;header('Authorization');&#10;" DateCreated="07-Jul-2020 12:13:52" DateExpired="29-Jul-2020 09:24:06" DateModified="07-Jul-2020 12:13:52" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:25:21" Frontside="get-header-authorization-key-in-laravel-controller" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Ctrl+Shift+I for items in code completion suggestions lists and the class, file, or symbol navigation commands" DateCreated="28-Jul-2020 08:46:13" DateExpired="28-Jul-2020 08:46:13" DateModified="28-Jul-2020 08:46:13" DateTouched="28-Jul-2020 08:46:13" Frontside="You can invoke the Quick Definition Viewer" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Ctrl+Shift+I for items in code completion suggestions lists and the class, file, or symbol navigation commands" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="You can invoke the Quick Definition Viewer" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="composer dump-autoload &#10;&#10;before composer update. If still doesn't work then try to clear composer cache using composer clear-cache" DateCreated="24-Jun-2020 10:53:46" DateExpired="30-Jul-2020 23:17:18" DateModified="24-Jun-2020 13:01:23" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:17:29" Frontside="composer cache clear" TestsHit="4" TestsTotal="6">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="I believe the answer to your question is that, essentially, ForElse is a ForEach loop, but with extra handling for empty input(s).&#10;&#10;extra handling for empty input(s).&#10;&#10;&#10;&#10;@forelse($status-&amp;gt;replies as $reply)&#10;    &amp;lt;p&amp;gt;{{ $reply-&amp;gt;body }}&amp;lt;/p&amp;gt;&#10;@empty&#10;    &amp;lt;p&amp;gt;No replies&amp;lt;/p&amp;gt;&#10;@endforelse" DateCreated="25-Jul-2020 09:34:35" DateExpired="30-Jul-2020 23:17:18" DateModified="27-Jul-2020 08:50:00" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:17:32" Frontside="ForElse is a ForEach loop, but with " TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="  $guilds = Guild::orderBy('weight')-&amp;gt;orderBy('name')-&amp;gt;select('id', 'name', 'logo')-&amp;gt;get();&#10;&#10;        return api()-&amp;gt;data($guilds);" DateCreated="20-Jul-2020 10:36:09" DateExpired="30-Jul-2020 23:17:18" DateModified="20-Jul-2020 10:36:09" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:17:44" Frontside="$guilds = Guild::orderBy('weight')-&amp;gt;orderBy('name')-&amp;gt;get();&#10;&#10;        $data = [];&#10;&#10;        foreach ($guilds as $g) {&#10;&#10;            $logo = null;&#10;&#10;            if ($g-&amp;gt;logo) {&#10;&#10;                $logo = $g-&amp;gt;logo;&#10;&#10;            }&#10;&#10;            $data[] = ['id' =&amp;gt; $g-&amp;gt;id, 'name' =&amp;gt; $g-&amp;gt;name, 'logo' =&amp;gt; $logo];&#10;&#10;        }&#10;&#10;&#10;        return api()-&amp;gt;data($data);" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside=" return api()-&amp;gt;data(ProductDetailResource::collection($product));&#10;&#10;        return api()-&amp;gt;data(ProductDetailResource::make($product));" DateCreated="20-Jul-2020 09:59:09" DateExpired="30-Jul-2020 23:17:18" DateModified="27-Jul-2020 08:52:15" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:17:55" Frontside=" return api()-&amp;gt;data(ProductDetailResource::collection($product));&#10;&#10;?? if one item and not a clollection of items how can we write our code?&#10;&#10;        return api()-&amp;gt;data(ProductDetailResource::????($product));" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$this-&amp;gt;ask  &#10;$this-&amp;gt;info( &#10;$this-&amp;gt;display( &#10;$this-&amp;gt;table(&#10;&#10;&#10;confirm&#10;&#10;secret&#10;&#10;anticipate&#10;&#10;&#10;line, info, comment, question and error&#10;&#10;options&#10;&#10;createProgressBar" DateCreated="20-Jul-2020 10:24:02" DateExpired="30-Jul-2020 23:17:18" DateModified="27-Jul-2020 09:23:48" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:18:14" Frontside="laravel methods like ask WHEN WE IMPLEMENT COMMANDS&#10;&#10;ask a question&#10;write into in shell&#10;display things&#10;draw a table&#10;&#10;confirm&#10;get password&#10;guess and suggest" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Resource::collection(" DateCreated="02-Jul-2020 10:18:59" DateExpired="30-Jul-2020 23:17:18" DateModified="27-Jul-2020 09:13:40" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:19:08" Frontside="create&#10;&#10;RESOURCE file&#10;&#10;return [&#10;id =&amp;gt; this -&amp;gt; id&#10;....&#10;]&#10;&#10;&#10;HOW to use your custom X-Resouce to manage structure of returned json WHEN COLLECTION" TestsHit="3" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="&#10;&#10;        return [&#10;&#10;            $request-&amp;gt;except('type', 'coordinates', 'coordinates.lat', 'coordinates.long', 'transferee_name')," DateCreated="20-Jul-2020 10:35:42" DateExpired="30-Jul-2020 23:17:18" DateModified="27-Jul-2020 09:11:57" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:19:15" Frontside="how to return (and remove unwanted fields and  values in     a            $request-&amp;gt;?????" TestsHit="2" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="        return view('app.index', compact('public_menu'));&#10;" DateCreated="20-Jul-2020 10:00:41" DateExpired="30-Jul-2020 23:17:18" DateModified="20-Jul-2020 10:00:41" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:19:19" Frontside="        return view('app.index', compact('public_menu'));&#10;" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="shopProductIds = $product-&amp;gt;shopProducts()-&amp;gt;pluck('id')-&amp;gt;toArray();" DateCreated="20-Jul-2020 10:28:59" DateExpired="30-Jul-2020 23:17:18" DateModified="20-Jul-2020 10:28:59" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:19:33" Frontside="shopProductIds = $product-&amp;gt;shopProducts()-&amp;gt;...." TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="\Request::route()-&amp;gt;getName()&#10;" DateCreated="24-Jun-2020 09:13:10" DateExpired="30-Jul-2020 23:17:18" DateModified="24-Jun-2020 09:13:10" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:19:39" Frontside="Laravel: How to Get Current Route Name? (v5 … v7)&#10;" TestsHit="5" TestsTotal="7">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="PaymentMethodResource::collection(PaymentMethod::all())" DateCreated="20-Jul-2020 09:33:07" DateExpired="30-Jul-2020 23:17:18" DateModified="20-Jul-2020 09:33:07" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:19:44" Frontside="just sample:&#10;&#10;PaymentMethodResource::collection(PaymentMethod::all())" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="if ($request-&amp;gt;exists('q')) { $request-&amp;gt;query('q') }" DateCreated="20-Jul-2020 09:57:39" DateExpired="30-Jul-2020 23:17:18" DateModified="27-Jul-2020 08:50:50" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:19:50" Frontside="if ($request-&amp;gt;exists('q')) { $request-&amp;gt;????('q') }" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="DB::table('users')-&amp;gt;where('id', 1)-&amp;gt;pluck('name')-&amp;gt;first();&#10;" DateCreated="20-Jul-2020 09:50:41" DateExpired="30-Jul-2020 23:17:18" DateModified="28-Jul-2020 23:21:07" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:21:08" Frontside="DB::table('users')-&amp;gt; HOW TO GET by id only field ('name')" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="&#10;        if ($request-&amp;gt;exists('brand')) {" DateCreated="20-Jul-2020 10:37:31" DateExpired="30-Jul-2020 23:17:18" DateModified="27-Jul-2020 08:47:21" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:21:15" Frontside="if ($request-&amp;gt;query('brand') !== null) {&#10;&#10;        if ($request-&amp;gt;؟؟؟؟؟؟('brand')) {" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside=" $shopProduct-&amp;gt;getOriginal('price')" DateCreated="20-Jul-2020 09:43:13" DateExpired="30-Jul-2020 23:17:18" DateModified="20-Jul-2020 09:43:13" DateTested="28-Jul-2020 23:17:18" DateTouched="28-Jul-2020 23:21:24" Frontside=" $shopProduct-&amp;gt; ( how to get original value after save ) ('price')" TestsHit="2" TestsTotal="2">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$product-&amp;gt;isDirty('price')" DateCreated="16-Jul-2020 09:49:37" DateExpired="30-Jul-2020 09:24:06" DateModified="16-Jul-2020 09:49:37" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:25:41" Frontside="if value of the saved model changed for example price " TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan make:test UserTest --unit&#10;" DateCreated="01-Jul-2020 14:32:56" DateExpired="30-Jul-2020 09:24:06" DateModified="01-Jul-2020 14:32:56" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:26:07" Frontside="create in UNIT FOLDER php artisan make:test " TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$trashedAndNotTrashed = Model::withTrashed()-&amp;gt;get();" DateCreated="07-Jul-2020 17:32:33" DateExpired="30-Jul-2020 09:24:06" DateModified="07-Jul-2020 17:32:33" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:26:15" Frontside="To also get soft deleted " TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="اصناف" DateCreated="02-Jul-2020 13:21:14" DateExpired="30-Jul-2020 09:24:06" DateModified="02-Jul-2020 13:21:14" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:26:17" Frontside="guilds" TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$onlySoftDeleted = Model::onlyTrashed()-&amp;gt;get();" DateCreated="07-Jul-2020 17:32:54" DateExpired="30-Jul-2020 09:24:06" DateModified="07-Jul-2020 17:32:54" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:26:24" Frontside="Only soft deleted items" TestsHit="3" TestsTotal="3">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="#NAME?" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="php artisan make:component [name] (switch)" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="add script in package.json" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="npm run [define your custom commands and switches like npm run NEW_COMMMAND]" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan help [commandname]" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="php artisan خالی چی میاره" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php -S localhost:8000 -t public/" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="php artisan serve (alternative)" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Authorization: Bearer " DateCreated="24-Jun-2020 15:39:07" DateExpired="31-Jul-2020 09:24:06" DateModified="18-Jul-2020 09:14:59" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:26:28" Frontside="Authooooorisasion dictation: Bearer " TestsHit="4" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$api_key = $request-&amp;gt;header('api_key')" DateCreated="24-Jun-2020 12:33:20" DateExpired="31-Jul-2020 09:24:06" DateModified="18-Jul-2020 09:15:21" DateTested="27-Jul-2020 09:24:06" DateTouched="27-Jul-2020 09:26:35" Frontside="get header in laravel for example 'your key'" TestsHit="4" TestsTotal="4">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;old('username')" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Request - Retrieving Old Data after flash" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck/>
+<Category name="git">
+<Deck/>
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="git push -u origin master" DateCreated="28-Jul-2020 08:46:13" DateExpired="28-Jul-2020 08:46:13" DateModified="28-Jul-2020 08:46:13" DateTouched="28-Jul-2020 08:46:13" Frontside="push command first time" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="git push -u origin master" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="push command first time" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="const express = require('express')&#13;&#10;const app = express()&#13;&#10;app.listen(3000)" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="first 3 line app listen by express" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="require('crypto').randomBytes(64).toString('hex')" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="node random hex" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+<Category name="laravel">
+<Deck/>
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="?" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Attaching A New Cookie To A Response" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="if ($request-&amp;gt;file('photo')-&amp;gt;isValid())" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Validating Successful Uploads" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="return Response::json($data);" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="how to return array as json" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="file('photo')" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Retrieving Uploaded Files asphoto&#13;&#10;$request-&amp;gt;???????????" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan help make:component" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="php artisan (help for desire command example)" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan make:component ????" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="make component command sample" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$response-&amp;gt;withCookie(cookie()-&amp;gt;forever('name', 'value'));" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="To create a long-lived cookie," TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$input = $request-&amp;gt;only(['username', 'password']);" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="get only desired fields from request&#13;&#10;Retrieving A Portion Of The Input Data" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="request()-&amp;gt;field_name" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Laravel access request object outside controller" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="-&amp;gt;orWhere('votes', '&amp;gt;=', 100);" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="where ( .... or .... )" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="&amp;lt;?= 'ss' ?&amp;gt;" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="&amp;lt;?php echo 'ss' ?&amp;gt;" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="($request-&amp;gt;hasFile('photo'))" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Verifying File Presence" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;input('blob');" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Accessing The blob Request store(Request $request)" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="composer require symfony/psr-http-message-bridge&#13;&#10;&#13;&#10;composer require zendframework/zend-diactoros" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="PSR-7 request - composer" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan migrate:fresh --seed" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Drop All Tables &amp; Migrate and seeds" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Illuminate\Http\Request;" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="HTTP Requests class refrence name" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$validator = Validator::make&#13;&#10;($input, $rules, $messages);" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="validator laravel 3 params simple validation" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;file('photo')-&amp;gt;move($destinationPath, $fileName);" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Moving Uploaded Files&#13;&#10;$request-&amp;gt;file('photo')-&amp;gt;????" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="composer dump-autoload" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="when new seed added and not refreshed" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan migrate:refresh --seed" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Refresh the database and run all database seeds" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="if ($request-&amp;gt;has('name')) {" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Determining If An Input Value Is Present-method" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan migrate:rollback --step=5" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="migrate:rollback step 5" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;cookie('name')" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Retrieving Cookies From The Request" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;flash();" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Flashing Input To The Session" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="down(){        Schema::drop" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="down migration? default" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;input('products.0.name');" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="&quot;dot&quot; notation to access the arrays" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$request-&amp;gt;all()" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Retrieving All Input Data" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="Schema::create" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="migration function up() table" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="آی دی موجود نیست. همه چیز درسته" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="&quot;message&quot;: &quot;No query results for model [WM\\Core\\Models\\Attribute] 5" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$table-&amp;gt;bigIncrements('id');" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="$table-&amp;gt;-----default ????------('id');" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan migrate --force" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Forcing Migrations To Run In Production" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="when if the specific key is not found" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="what is 3th parameter Arr::get($phones, 'delete', []);" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan make:migration create_users_table" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="make:migration default sample" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan migrate:rollback" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="migrate one step back" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan db:seed --class=&quot;myTestSeeder&quot;" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="seed by classname" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="$validator = Validator::make($input, $rules, $messages);" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="validation laravel" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="php artisan migrate:reset" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="migrate will roll back all" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="?" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="validation simple title* body *" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="if ($request-&amp;gt;isMethod('post'))" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="Retrieving The Request Method TYPE POST OR GET" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="down()   $table-&amp;gt;dropColumn" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="down() Column" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+<Category name="nodejs">
+<Deck/>
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="npm init -y" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="create new nodejs proj command? default settings" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="npm i express jsonwebtoken dotenv" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="install packages pack1 pack2 pack3  by shell" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="npm i --save-dev nodemon" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="install  nodemon ( just in dev mode)" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+<Category name="phpstorm">
+<Deck/>
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="report folder" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="where is my component: like:&#13;&#10;        &amp;lt;x-report.subview/&amp;gt;" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="compact()" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="view( ''folder.bladename' , (how to send parametersssss,second,third,) COMMAND" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="ALT SHIFT + L" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="re order code in phpstorm" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="&amp;lt;x-sidebar/&amp;gt;" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="use component sidebar in your blade (simple)" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="cntrl + shift + K" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="phpstorm git push hotkey" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="pubf" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="public function [abbr] hotkey phpstorm" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="rget" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="route::get [abbr] hotkey phpstorm" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="resource &amp;gt; views &amp;gt; components" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="make:component create blade file in which location?" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="cntrl shift + R" DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="search in all contents" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+<Category name="vocab">
+<Deck/>
+<Deck/>
+<Deck>
+<Card AmountLearnedBack="0" AmountLearnedFront="0" Backside="معنی disclosure = معنی : افشاء، فاش سازی، بی پرده گویی معانی دیگر: آشکارسازی، افشاگری، بازنمود." DateCreated="28-Jul-2020 09:19:11" DateExpired="28-Jul-2020 09:19:11" DateModified="28-Jul-2020 09:19:11" DateTouched="28-Jul-2020 09:19:11" Frontside="معنی disclosure" TestsHit="0" TestsTotal="0">
+<Side/>
+<Side/>
+</Card>
+</Deck>
+</Category>
+</Category>
+<statistics>
+<session end="28-Jul-2020 23:21:24" failed="0" passed="15" relearned="0" skipped="0" start="28-Jul-2020 23:17:18"/>
+</statistics>
+</Lesson>

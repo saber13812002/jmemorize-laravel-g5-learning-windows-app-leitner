@@ -1,30 +1,6 @@
 Frontside,Flipside,Category,Level
-"if ($request-&gt;query('brand') !== null) {
-
-        if ($request-&gt;؟؟؟؟؟؟('brand')) {",if ($request-&gt;exists('brand')) {,,1
-$shopProduct-&gt; ( how to get original value after save ) ('price'),$shopProduct-&gt;getOriginal('price'),,1
-get fileld from request,$request-&gt;input('action'),,1
-"return view('app.index', compact('public_menu'));","return view('app.index', compact('public_menu'));",,1
-"ForElse is a ForEach loop, but with","I believe the answer to your question is that, essentially, ForElse is a ForEach loop, but with extra handling for empty input(s).
-
-extra handling for empty input(s).
-
-
-
-@forelse($status-&gt;replies as $reply)
-    &lt;p&gt;{{ $reply-&gt;body }}&lt;/p&gt;
-@empty
-    &lt;p&gt;No replies&lt;/p&gt;
-@endforelse",,1
-shopProductIds = $product-&gt;shopProducts()-&gt;....,shopProductIds = $product-&gt;shopProducts()-&gt;pluck('id')-&gt;toArray();,,1
-if ($request-&gt;exists('q')) { $request-&gt;????('q') },if ($request-&gt;exists('q')) { $request-&gt;query('q') },,1
-"return api()-&gt;data(ProductDetailResource::collection($product));
-
-?? if one item and not a clollection of items how can we write our code?
-
-        return api()-&gt;data(ProductDetailResource::????($product));","return api()-&gt;data(ProductDetailResource::collection($product));
-
-        return api()-&gt;data(ProductDetailResource::make($product));",,1
+For files stored using the s3 you may create a temporary URL to a given file using the ................. method.,temporaryUrl,,0
+node random hex,require('crypto').randomBytes(64).toString('hex'),git,0
 "The pluck method retrieves all of the values for a given key:
 
 $collection = collect([
@@ -39,82 +15,6 @@ $plucked-&gt;???????();
 // ['???????????', '???????????']","$plucked-&gt;all();
 
 // ['Desk', 'Chair']",,1
-function to check ... was model changed for specific field,$shopProduct-&gt;isDirty('price'),,1
-"just sample:
-
-PaymentMethodResource::collection(PaymentMethod::all())",PaymentMethodResource::collection(PaymentMethod::all()),,1
-"$optionBuilder = new OptionsBuilder();
-
-                $optionBuilder-&gt;setTimeToLive(60 * 20);
-
-
-                $notificationBuilder = new PayloadNotificationBuilder();
-
-                $notificationBuilder-&gt;setBody($message)
-
-                    -&gt;setSound('default');
-
-                $dataBuilder = new PayloadDataBuilder();
-
-                $dataBuilder-&gt;addData(['deeplink' =&gt; $deeplink]);
-
-                $option = $optionBuilder-&gt;build();
-
-                $notification = $notificationBuilder-&gt;build();
-
-                $data = $dataBuilder-&gt;build();
-
-                $token = $fcm_token['firebase_token'];
-
-                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);","$optionBuilder = new OptionsBuilder();
-
-                $optionBuilder-&gt;setTimeToLive(60 * 20);
-
-
-                $notificationBuilder = new PayloadNotificationBuilder();
-
-                $notificationBuilder-&gt;setBody($message)
-
-                    -&gt;setSound('default');
-
-                $dataBuilder = new PayloadDataBuilder();
-
-                $dataBuilder-&gt;addData(['deeplink' =&gt; $deeplink]);
-
-                $option = $optionBuilder-&gt;build();
-
-                $notification = $notificationBuilder-&gt;build();
-
-                $data = $dataBuilder-&gt;build();
-
-                $token = $fcm_token['firebase_token'];
-
-                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);",,1
-"'total' =&gt; $products-&gt;?????(),","'total' =&gt; $products-&gt;count(),",,1
-"use SoftDeletes;
-
-how to use?","class Attribute extends Model
-
-{
-
-    use SoftDeletes;
-
-use Illuminate\Database\Eloquent\SoftDeletes;",,1
-"another similar code writing
-
-return api()-&gt;data([
-
-            'id' =&gt; $guild-&gt;id,
-
-            'name' =&gt; $guild-&gt;name,
-
-            'logo' =&gt; $guild-&gt;logo,
-
-            'subscription_plans' =&gt; $plans,
-
-            'social_accounts' =&gt; $accounts
-
-        ]);",return api()-&gt;data(new GuildResource($guild));,,1
 "$downstreamResponse-&gt;numberSuccess();
 
         $downstreamResponse-&gt;numberFailure();
@@ -164,51 +64,6 @@ return api()-&gt;data([
         // return Array (key:token, value:error) - in production you should remove from your database the tokens
 
         $downstreamResponse-&gt;tokensWithError();",,1
-auditing laravel,use OwenIt\Auditing\Contracts\Auditable;,,1
-"what is another similar code to write this code?
-
-return api()-&gt;data([
-
-            'id' =&gt; $invoice-&gt;id,
-
-            'title' =&gt; $invoice-&gt;title,
-
-            'price' =&gt; $invoice-&gt;price,
-
-            'created_at' =&gt; $invoice-&gt;created_at,
-
-            'payed_at' =&gt; $invoice-&gt;payed_at,
-
-            'items' =&gt; $items
-
-        ]);",return api()-&gt;data(new InvoiceDetailResource($invoice));,,1
-"@forelse ($users as $user)
-    &lt;li&gt;{{ $user-&gt;name }}&lt;/li&gt;
-???????????????
-@endforelse","@empty
-    &lt;p&gt;No users&lt;/p&gt;",,1
-DB::table('users')-&gt; HOW TO GET first value ('name'); BY WHERE,"DB::table('users')-&gt;where('id', 1)-&gt;pluck('name')-&gt;first();",,1
-"in bazarshahr model
-
- $categoryIds = $this-&gt;??????()
-
-            -&gt;pluck('category_id')","$categoryIds = $this-&gt;products()
-
-            -&gt;pluck('category_id')",,1
-how to return (and remove unwanted fields and  values in     a            $request-&gt;?????,"return [
-
-            $request-&gt;except('type', 'coordinates', 'coordinates.lat', 'coordinates.long', 'transferee_name'),",,1
-"create
-
-RESOURCE file
-
-return [
-id =&gt; this -&gt; id
-....
-]
-
-
-HOW to use your custom X-Resouce to manage structure of returned json WHEN COLLECTION",Resource::collection(,,1
 "what is ????????????? 
 
    protected static function boot() {
@@ -219,30 +74,87 @@ HOW to use your custom X-Resouce to manage structure of returned json WHEN COLLE
             ProductAttribute::destroy($productAttributeIds);
         });
     }",static::deleteting,,1
-لَهُمُ الْبُشْرَىٰ فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ ۚ لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ ۚ ذَٰلِكَ هُوَ الْفَوْزُ الْعَظِيمُ (64),الذين آمنوا وكانوا يتقون لهم البشرى,,1
 composer load refresh all,composer dump-autoload before composer update. If still doesn't work then try to clear composer dump-autoload,,1
-"$guilds = Guild::orderBy('weight')-&gt;orderBy('name')-&gt;get();
+"what is 401 and 408
 
-        $data = [];
+return apiAbort(401);
 
-        foreach ($guilds as $g) {
+            return apiAbort(Response::?????????????????);","HTTP_UNAUTHORIZED
 
-            $logo = null;
+return apiAbort(488);
 
-            if ($g-&gt;logo) {
+            return apiAbort(Response::HTTP_BAD_REQUEST);",,1
+"f you would like Laravel to automatically manage streaming a given file to your storage location, you may use ?????????????????????????","the putFile or putFileAs method.
 
-                $logo = $g-&gt;logo;
+Storage::putFileAs('photos', new File('/path/to/photo'), 'photo.jpg');",,1
+"Storage::delete('file.jpg');
 
-            }
+Storage::delete(MULTI???);
 
-            $data[] = ['id' =&gt; $g-&gt;id, 'name' =&gt; $g-&gt;name, 'logo' =&gt; $logo];
+description",The delete method accepts a single filename or an array of files to remove from the disk:,,1
+"Route::get('asdf/{abc}' , 'abcController@abc')
 
-        }
+function abc(Abc $abc)
 
 
-        return api()-&gt;data($data);","$guilds = Guild::orderBy('weight')-&gt;orderBy('name')-&gt;select('id', 'name', 'logo')-&gt;get();
+what is this ....",Route Model Binding,,1
+"public function update(Request $request)
+    {
+        $path = $request-&gt;file('avatar')-&gt;???????????????????
 
-        return api()-&gt;data($guilds);",,1
+        return $path;
+    }","https://laravel.com/docs/7.x/filesystem#file-uploads
+
+public function update(Request $request)
+    {
+        $path = $request-&gt;file('avatar')-&gt;store('avatars');
+
+        return $path;
+    }",,1
+"you may use the .... method to get the URL for the given file. If you are using the local driver, this will typically just prepend /storage to the given path and return a relative URL to the file..... If you are using the s3 driver, the fully qualified remote URL will be returned:",$url = Storage::url('file.jpg');,,1
+"return Storage::download('file.jpg');
+
+The download method may be used to......",....generate a response that forces the user's browser to download the file at the given path,,1
+"route model B......g
+
+Route::get('models/{model}', ModelController@get) 
+
+class ModelController
+
+function get(Model $model)",route model Binding,,1
+"Previously, this method returned the uncast, raw attributes. If you would like to continue retrieving the raw, uncast values, you may use the ????????????? method instead.","Previously, this method returned the uncast, raw attributes. If you would like to continue retrieving the raw, uncast values, you may use the getRawOriginal method instead.",,1
+"..............methods allow you to write to the beginning or end of a file:
+
+Storage::???????????('file.log', 'Prepended Text');
+
+Storage::???????????('file.log', 'Appended Text');","methods allow you to write to the beginning or end of a file:
+
+Storage::prepend('file.log', 'Prepended Text');
+
+Storage::append('file.log', 'Appended Text');",,1
+"check file exist 
+
+$???????? = Storage::disk('s3')-&gt;?????????('file.jpg');",$missing = Storage::disk('s3')-&gt;missing('file.jpg');,laravel,1
+method to get old value in model laravel when save,"$user-&gt;getOriginal('username') &lt;&lt;&lt;&lt;
+$user-&gt;old-&gt;username
+$product-&gt;isDirty('price')",,2
+get-header-authorization-key-in-laravel-controller,$header = $request-&gt;header('Authorization');,,2
+You can invoke the Quick Definition Viewer,"Ctrl+Shift+I for items in code completion suggestions lists and the class, file, or symbol navigation commands",,2
+You can invoke the Quick Definition Viewer,"Ctrl+Shift+I for items in code completion suggestions lists and the class, file, or symbol navigation commands",,2
+composer cache clear,"composer dump-autoload 
+
+before composer update. If still doesn't work then try to clear composer cache using composer clear-cache",,2
+"ForElse is a ForEach loop, but with","I believe the answer to your question is that, essentially, ForElse is a ForEach loop, but with extra handling for empty input(s).
+
+extra handling for empty input(s).
+
+
+
+@forelse($status-&gt;replies as $reply)
+    &lt;p&gt;{{ $reply-&gt;body }}&lt;/p&gt;
+@empty
+    &lt;p&gt;No replies&lt;/p&gt;
+@endforelse",,2
 "laravel methods like ask WHEN WE IMPLEMENT COMMANDS
 
 ask a question
@@ -269,7 +181,48 @@ line, info, comment, question and error
 
 options
 
-createProgressBar",,1
+createProgressBar",,2
+"create
+
+RESOURCE file
+
+return [
+id =&gt; this -&gt; id
+....
+]
+
+
+HOW to use your custom X-Resouce to manage structure of returned json WHEN COLLECTION",Resource::collection(,,2
+shopProductIds = $product-&gt;shopProducts()-&gt;....,shopProductIds = $product-&gt;shopProducts()-&gt;pluck('id')-&gt;toArray();,,2
+Laravel: How to Get Current Route Name? (v5 … v7),\Request::route()-&gt;getName(),,2
+"just sample:
+
+PaymentMethodResource::collection(PaymentMethod::all())",PaymentMethodResource::collection(PaymentMethod::all()),,2
+if ($request-&gt;exists('q')) { $request-&gt;????('q') },if ($request-&gt;exists('q')) { $request-&gt;query('q') },,2
+DB::table('users')-&gt; HOW TO GET by id only field ('name'),"DB::table('users')-&gt;where('id', 1)-&gt;pluck('name')-&gt;first();",,2
+"if ($request-&gt;query('brand') !== null) {
+
+        if ($request-&gt;؟؟؟؟؟؟('brand')) {",if ($request-&gt;exists('brand')) {,,2
+$shopProduct-&gt; ( how to get original value after save ) ('price'),$shopProduct-&gt;getOriginal('price'),,2
+"'total' =&gt; $products-&gt;?????(),","'total' =&gt; $products-&gt;count(),",,2
+"what is another similar code to write this code?
+
+return api()-&gt;data([
+
+            'id' =&gt; $invoice-&gt;id,
+
+            'title' =&gt; $invoice-&gt;title,
+
+            'price' =&gt; $invoice-&gt;price,
+
+            'created_at' =&gt; $invoice-&gt;created_at,
+
+            'payed_at' =&gt; $invoice-&gt;payed_at,
+
+            'items' =&gt; $items
+
+        ]);",return api()-&gt;data(new InvoiceDetailResource($invoice));,,2
+function to check ... was model changed for specific field,$shopProduct-&gt;isDirty('price'),,2
 "count in card in bazarshahr design 
 
 by bazarshahr models
@@ -280,28 +233,205 @@ WITH USER and PRODUCT","$shopProductIds = $product-&gt;shopProducts()-&gt;pluck(
 
             -&gt;whereIn('shop_product_id', $shopProductIds)
 
-            -&gt;sum('count');",,1
-composer cache clear,"composer dump-autoload 
+            -&gt;sum('count');",,2
+لَهُمُ الْبُشْرَىٰ فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ ۚ لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ ۚ ذَٰلِكَ هُوَ الْفَوْزُ الْعَظِيمُ (64),الذين آمنوا وكانوا يتقون لهم البشرى,,2
+get fileld from request,$request-&gt;input('action'),,2
+auditing laravel,use OwenIt\Auditing\Contracts\Auditable;,,2
+"use SoftDeletes;
 
-before composer update. If still doesn't work then try to clear composer cache using composer clear-cache",,1
-"what is 401 and 408
+how to use?","class Attribute extends Model
 
-return apiAbort(401);
+{
 
-            return apiAbort(Response::?????????????????);","HTTP_UNAUTHORIZED
+    use SoftDeletes;
 
-return apiAbort(488);
+use Illuminate\Database\Eloquent\SoftDeletes;",,2
+"@forelse ($users as $user)
+    &lt;li&gt;{{ $user-&gt;name }}&lt;/li&gt;
+???????????????
+@endforelse","@empty
+    &lt;p&gt;No users&lt;/p&gt;",,2
+"another similar code writing
 
-            return apiAbort(Response::HTTP_BAD_REQUEST);",,1
-Laravel: How to Get Current Route Name? (v5 … v7),\Request::route()-&gt;getName(),,1
-method to get old value in model laravel when save,"$user-&gt;getOriginal('username') &lt;&lt;&lt;&lt;
-$user-&gt;old-&gt;username
-$product-&gt;isDirty('price')",,2
-get-header-authorization-key-in-laravel-controller,$header = $request-&gt;header('Authorization');,,2
-if value of the saved model changed for example price,$product-&gt;isDirty('price'),,3
+return api()-&gt;data([
+
+            'id' =&gt; $guild-&gt;id,
+
+            'name' =&gt; $guild-&gt;name,
+
+            'logo' =&gt; $guild-&gt;logo,
+
+            'subscription_plans' =&gt; $plans,
+
+            'social_accounts' =&gt; $accounts
+
+        ]);",return api()-&gt;data(new GuildResource($guild));,,2
+"in bazarshahr model
+
+ $categoryIds = $this-&gt;??????()
+
+            -&gt;pluck('category_id')","$categoryIds = $this-&gt;products()
+
+            -&gt;pluck('category_id')
+
+
+doesnt exist in shopproduct",,2
+"$optionBuilder = new OptionsBuilder();
+
+                $optionBuilder-&gt;setTimeToLive(60 * 20);
+
+
+                $notificationBuilder = new PayloadNotificationBuilder();
+
+                $notificationBuilder-&gt;setBody($message)
+
+                    -&gt;setSound('default');
+
+                $dataBuilder = new PayloadDataBuilder();
+
+                $dataBuilder-&gt;addData(['deeplink' =&gt; $deeplink]);
+
+                $option = $optionBuilder-&gt;build();
+
+                $notification = $notificationBuilder-&gt;build();
+
+                $data = $dataBuilder-&gt;build();
+
+                $token = $fcm_token['firebase_token'];
+
+                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);","$optionBuilder = new OptionsBuilder();
+
+                $optionBuilder-&gt;setTimeToLive(60 * 20);
+
+
+                $notificationBuilder = new PayloadNotificationBuilder();
+
+                $notificationBuilder-&gt;setBody($message)
+
+                    -&gt;setSound('default');
+
+                $dataBuilder = new PayloadDataBuilder();
+
+                $dataBuilder-&gt;addData(['deeplink' =&gt; $deeplink]);
+
+                $option = $optionBuilder-&gt;build();
+
+                $notification = $notificationBuilder-&gt;build();
+
+                $data = $dataBuilder-&gt;build();
+
+                $token = $fcm_token['firebase_token'];
+
+                $downstreamResponse = FacadesFCM::sendTo($token, $option, $notification, $data);",,2
+push command first time,git push -u origin master,git,2
+push command first time,git push -u origin master,git,2
+Validating Successful Uploads,if ($request-&gt;file('photo')-&gt;isValid()),laravel,2
+how to return array as json,return Response::json($data);,laravel,2
+"Retrieving Uploaded Files asphoto
+$request-&gt;???????????",file('photo'),laravel,2
+php artisan (help for desire command example),php artisan help make:component,laravel,2
+make component command sample,php artisan make:component ????,laravel,2
+"To create a long-lived cookie,","$response-&gt;withCookie(cookie()-&gt;forever('name', 'value'));",laravel,2
+Laravel access request object outside controller,request()-&gt;field_name,laravel,2
+where ( .... or .... ),"-&gt;orWhere('votes', '&gt;=', 100);",laravel,2
+&lt;?php echo 'ss' ?&gt;,&lt;?= 'ss' ?&gt;,laravel,2
+Accessing The blob Request store(Request $request),$request-&gt;input('blob');,laravel,2
+PSR-7 request - composer,"composer require symfony/psr-http-message-bridge
+
+composer require zendframework/zend-diactoros",laravel,2
+create new nodejs proj command? default settings,npm init -y,nodejs,2
+install packages pack1 pack2 pack3  by shell,npm i express jsonwebtoken dotenv,nodejs,2
+install  nodemon ( just in dev mode),npm i --save-dev nodemon,nodejs,2
+"where is my component: like:
+        &lt;x-report.subview/&gt;",report folder,phpstorm,2
+"view( ''folder.bladename' , (how to send parametersssss,second,third,) COMMAND",compact(),phpstorm,2
+re order code in phpstorm,ALT SHIFT + L,phpstorm,2
+phpstorm git push hotkey,cntrl + shift + K,phpstorm,2
+public function [abbr] hotkey phpstorm,pubf,phpstorm,2
+route::get [abbr] hotkey phpstorm,rget,phpstorm,2
+make:component create blade file in which location?,resource &gt; views &gt; components,phpstorm,2
+معنی disclosure,معنی disclosure = معنی : افشاء، فاش سازی، بی پرده گویی معانی دیگر: آشکارسازی، افشاگری، بازنمود.,vocab,2
 create in UNIT FOLDER php artisan make:test,php artisan make:test UserTest --unit,,3
 To also get soft deleted,$trashedAndNotTrashed = Model::withTrashed()-&gt;get();,,3
 guilds,اصناف,,3
-Only soft deleted items,$onlySoftDeleted = Model::onlyTrashed()-&gt;get();,,3
-Authooooorisasion dictation: Bearer,Authorization: Bearer,,4
+php artisan make:component [name] (switch),#NAME?,,3
+npm run [define your custom commands and switches like npm run NEW_COMMMAND],add script in package.json,,3
+php artisan serve (alternative),php -S localhost:8000 -t public/,,3
+"return view('app.index', ???????('public_menu'));","return view('app.index', compact('public_menu'));",,3
+"return api()-&gt;data(ProductDetailResource::collection($product));
+
+?? if one item and not a clollection of items how can we write our code?
+
+        return api()-&gt;data(ProductDetailResource::????($product));","return api()-&gt;data(ProductDetailResource::collection($product));
+
+        return api()-&gt;data(ProductDetailResource::make($product));",,3
+"$guilds = Guild::orderBy('weight')-&gt;orderBy('name')-&gt;get();
+
+        $data = [];
+
+        foreach ($guilds as $g) {
+
+            $logo = null;
+
+            if ($g-&gt;logo) {
+
+                $logo = $g-&gt;logo;
+
+            }
+
+            $data[] = ['id' =&gt; $g-&gt;id, 'name' =&gt; $g-&gt;name, 'logo' =&gt; $logo];
+
+        }
+
+
+        return api()-&gt;data($data);","$guilds = Guild::orderBy('weight')-&gt;orderBy('name')-&gt;select('id', 'name', 'logo')-&gt;get();
+
+        return api()-&gt;data($guilds);",,3
+"how to return (and remove some fields and  values in     a            $request-&gt;?????
+
+unlike input...","return [
+
+            $request-&gt;except('type', 'coordinates', 'coordinates.lat', 'coordinates.long', 'transferee_name'),",,3
+first 3 line app listen by express,"const express = require('express')
+const app = express()
+app.listen(3000)",git,3
+Drop All Tables & Migrate and seeds,php artisan migrate:fresh --seed,laravel,3
+HTTP Requests class refrence name,Illuminate\Http\Request;,laravel,3
+validator laravel 3 params simple validation,"$validator = Validator::make
+($input, $rules, $messages);",laravel,3
+"Moving Uploaded Files
+$request-&gt;file('photo')-&gt;????","$request-&gt;file('photo')-&gt;move($destinationPath, $fileName);",laravel,3
+when new seed added and not refreshed,composer dump-autoload,laravel,3
+Refresh the database and run all database seeds,php artisan migrate:refresh --seed,laravel,3
+Determining If An Input Value Is Present-method,if ($request-&gt;has('name')) {,laravel,3
+Retrieving Cookies From The Request,$request-&gt;cookie('name'),laravel,3
+"""dot"" notation to access the arrays",$request-&gt;input('products.0.name');,laravel,3
+Retrieving All Input Data,$request-&gt;all(),laravel,3
+migration function up() table,Schema::create,laravel,3
+"""message"": ""No query results for model [WM\\Core\\Models\\Attribute] 5",آی دی موجود نیست. همه چیز درسته,laravel,3
+"get only desired fields from request
+Retrieving A Portion Of The Input Data","$input = $request-&gt;only(['username', 'password']);",laravel,3
+Attaching A New Cookie To A Response,?,laravel,3
+Verifying File Presence,($request-&gt;hasFile('photo')),laravel,3
+search in all contents,cntrl shift + R,phpstorm,3
+use component sidebar in your blade (simple),&lt;x-sidebar/&gt;,phpstorm,3
 get header in laravel for example 'your key',$api_key = $request-&gt;header('api_key'),,4
+php artisan خالی چی میاره,php artisan help [commandname],,4
+if value of the saved model changed for example price,$product-&gt;isDirty('price'),,4
+Only soft deleted items,$onlySoftDeleted = Model::onlyTrashed()-&gt;get();,,4
+$table-&gt;-----default ????------('id');,$table-&gt;bigIncrements('id');,laravel,4
+Forcing Migrations To Run In Production,php artisan migrate --force,laravel,4
+"what is 3th parameter Arr::get($phones, 'delete', []);",when if the specific key is not found,laravel,4
+make:migration default sample,php artisan make:migration create_users_table,laravel,4
+migrate one step back,php artisan migrate:rollback,laravel,4
+seed by classname,"php artisan db:seed --class=""myTestSeeder""",laravel,4
+down migration? default,down(){        Schema::drop,laravel,4
+migrate:rollback step 5,php artisan migrate:rollback --step=5,laravel,4
+Flashing Input To The Session,$request-&gt;flash();,laravel,4
+Request - Retrieving Old Data after flash,$request-&gt;old('username'),,5
+Authooooorisasion dictation: Bearer,Authorization: Bearer,,5
+validation laravel,"$validator = Validator::make($input, $rules, $messages);",laravel,5
+migrate will roll back all,php artisan migrate:reset,laravel,5
+validation simple title* body *,?,laravel,5
+Retrieving The Request Method TYPE POST OR GET,if ($request-&gt;isMethod('post')),laravel,5
+down() Column,down()   $table-&gt;dropColumn,laravel,6
